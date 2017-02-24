@@ -1,7 +1,10 @@
 package medium;
 
 import java.util.Scanner;
-
+/**
+ * https://www.codingame.com/training/medium/conway-sequence
+ * @author _DELEX
+ */
 public class ConwaySequence {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);

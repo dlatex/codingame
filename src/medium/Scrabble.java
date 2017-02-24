@@ -2,7 +2,10 @@ package medium;
 
 import java.util.HashMap;
 import java.util.Scanner;
-
+/**
+ * https://www.codingame.com/training/medium/scrabble
+ * @author _DELEX
+ */
 public  class Scrabble {    
     public static void maisn(String args[]) {
         Scanner in = new Scanner(System.in);
