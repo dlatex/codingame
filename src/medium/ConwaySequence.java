@@ -10,15 +10,12 @@ public class ConwaySequence {
 		Scanner in = new Scanner(System.in);
 		int R = in.nextInt();
 		int L = in.nextInt();
-
 		if (L == 0) System.out.println("");
-
 		if (L == 1) System.out.println(R);
-
 		String previousStr = "";
 		String str = Integer.toString(R);
-		int prev;
-		int count;
+		int prev=0;
+		int count=0;
 		for (int loop = 2; loop <= L; loop++) {
 			previousStr = str;
 			str = "";

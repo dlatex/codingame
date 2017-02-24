@@ -62,7 +62,7 @@ public  class Scrabble {
     }
     public static HashMap<String, Integer> letterValues;	    
     public static boolean isPossible(String word, String letters) {	        
-        if (word.equals("")) {return true;}
+        if (word.equals("")) return true;
         String firstLetter = word.substring(0,1);
         int index = letters.indexOf(firstLetter);
         if (index == -1) return false;
